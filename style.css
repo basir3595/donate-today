@@ -1,0 +1,240 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* common css */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 750;
+    color: #121212;
+    margin-top: 50px;
+}
+
+.pera {
+    color: #707070;
+    font-size: 17px;
+    padding: 30px 0;
+}
+
+.btn {
+    background-color: #FF5959;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: all .8s;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #FF5920;
+}
+
+/* banner */
+.banner {
+    background-image: url(images/donation2.jpg);
+    background-color: rgba(0, 0, 0, .5);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-details {
+    padding: 150px 200px;
+    color: #fff;
+    text-align: center;
+}
+
+.banner-details h2 {
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.banner-details p {
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+ ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+/* donate today */
+.donate-today {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.amount ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.amount ul li {
+    list-style: none;
+    margin: 0 5px;
+    border-radius: 5px;
+    padding: 30px 10px;
+    background: #FAFAFA;
+    font-size: 25px;
+    font-weight: 600;
+    color: #707070;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.amount ul li:hover {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+.amount .active-ammount{
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+.amount input {
+    width: 15%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.amount hr {
+    width: 50%;
+    margin: auto;
+    background-color: #DADADA;
+    margin-bottom: 50px;
+}
+
+/* our plan */
+
+.our-plan {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.donate-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    text-align: left;
+}
+
+.card {
+    padding: 40px 20px;
+    border-radius: 8px;
+}
+
+.card h3 {
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.card1 {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.card2 {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.card3 {
+    background: #FFF4D6;
+}
+
+.card .read a {
+    color: #FF5959;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.card .read a:hover {
+    text-decoration: 2px underline;
+}
+
+/* how to contribute */
+.how-to-contribute {
+    padding: 50px 0;
+}
+
+.contribute {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-bottom: 50px;
+    
+}
+
+.contribute img {
+    width: 456px;
+    height: 477px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+/* update */
+.update {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.update-input {
+    background: #FFF4D6;
+    width: 50%;
+    margin: auto;
+    padding: 50px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.update-input input{
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+}
+.update-input span{
+    background-color: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+    padding: 8px 14px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* footer */
+
+footer{
+    background: #0B0D17;
+    text-align: center;
+    padding: 20px;
+}
+footer h4{
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    font-weight: 500;
+    word-spacing: 5px;
+    margin-bottom: 6px;
+}
+footer p{
+    color: #fff;
+    font-size: 13px;
+}
+.other-amount{
+    color: #707070;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
